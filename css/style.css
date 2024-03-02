@@ -1,0 +1,614 @@
+body.main-color {
+  background-color: #24daba;
+}
+
+body.color-2 {
+  background-color: #ffffff;
+}
+
+body.color-3 {
+  background-color: #a9f0e0;
+}
+
+#body {
+  width: 780px;
+  margin: auto;
+  overflow-x: hidden;
+}
+
+h5, h6 {
+  color: #24daba;
+}
+
+.highlighted {
+  background: linear-gradient(transparent 50%, rgb(183, 237, 227) 50%);
+}
+
+#nav1 {
+  display: flex;
+  gap: 20px;
+}
+
+/* features of most of the anchor elements*/
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Perculiar to 4 anchor elements below*/
+#nav1 > a, .pitch > a, .button-1 > a, .button-3 > a {
+  text-decoration: none;
+  color: #000000 !important;
+}
+
+.image_nav {
+  position: fixed;
+  display: flex;
+  gap: 300px;
+}
+
+#pitch {
+  margin-top: 100px;
+}
+#pitch .pitch-image > div {
+  width: 300px;
+  height: 230px;
+}
+
+.pitch-image {
+  display: flex;
+  justify-content: center;
+}
+.pitch-image .pitch > div {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: x-large;
+  line-height: 1px;
+  font-weight: bolder;
+  letter-spacing: 1.5px;
+}
+
+.pitch {
+  margin-left: 50px;
+  padding-top: 40px;
+}
+
+.pitch > p:not(.touch-not) {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: x-large;
+  line-height: 1px;
+  font-weight: bolder;
+  letter-spacing: 1.5px;
+}
+
+/* Features of most of the buttons*/
+#body button {
+  background-color: #24daba;
+  border: none;
+  color: #ffffff;
+  padding: 5px 12px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+/*Perculiar features of some buttons*/
+.button-1 {
+  border-radius: 50px !important;
+}
+
+.button-2, .button-3 {
+  border-radius: 0px !important;
+}
+
+.button-3 {
+  background-color: #ffffff !important;
+}
+
+.button-4, .button-4 button {
+  width: 40px;
+  height: 40px;
+  border-radius: 100% !important;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  float: right;
+}
+
+.centered-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+#services h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.centered-div {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#aboutus {
+  position: relative;
+  margin-top: 150px;
+}
+
+.image_about {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.about {
+  width: 240px;
+  height: 300px;
+}
+.about p::first-letter {
+  text-transform: uppercase;
+}
+
+/* Progress bar in circular form */
+.progress-circle {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 100px;
+  margin-bottom: -100px;
+}
+
+.outer-circle {
+  position: relative;
+  width: 105px;
+  height: 105px;
+  border-radius: 50%;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.outer-circle h4, .outer-circle p {
+  text-align: center;
+}
+
+.outer-circle h4 {
+  font-size: larger;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.outer-circle p {
+  font-size: xx-small;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: -25px;
+}
+
+.progress-circle-dimension, .progress-circle4, .progress-circle3, .progress-circle2, .progress-circle1 {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 1px;
+}
+
+.progress-circle1 {
+  background: radial-gradient(closest-side, #ffffff 79%, transparent 80% 100%), conic-gradient(#24daba 50%, #a9f0e0 0);
+}
+
+.progress-circle2 {
+  background: radial-gradient(closest-side, #ffffff 79%, transparent 80% 100%), conic-gradient(#24daba 75%, #a9f0e0 0);
+}
+
+.progress-circle3 {
+  background: radial-gradient(closest-side, #ffffff 79%, transparent 80% 100%), conic-gradient(#24daba 20%, #a9f0e0 0);
+}
+
+.progress-circle4 {
+  background: radial-gradient(closest-side, #ffffff 79%, transparent 80% 100%), conic-gradient(#24daba 50%, #a9f0e0 0);
+}
+.progress-circle4 p::first-line {
+  font-size: 7.5px;
+}
+
+/* Circular-form progress bar terminates here */
+/* This container is introduced so as to be able to use the flex functionality */
+.my-services {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#services {
+  margin-top: 150px;
+}
+
+.web {
+  border-radius: 5px;
+  width: 280px;
+  height: 350px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.web1, .design1 {
+  margin: 20px;
+  position: relative;
+}
+
+.web1 {
+  margin-right: -10px !important;
+}
+
+.graphic-right {
+  background-color: #24daba;
+  color: #ffffff;
+}
+
+.design {
+  position: relative;
+  border-radius: 5px;
+  width: 280px;
+  height: 175px;
+  margin-top: 90px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* progress bars at services section */
+.progress-bar {
+  width: 240px;
+  background-color: #a9f0e0;
+}
+
+.progress-bar1 {
+  width: 95%;
+  border: 2px solid #24daba;
+}
+
+.progress-bar2 {
+  width: 85% !important;
+}
+
+.progress-bar3 {
+  width: 70% !important;
+}
+
+/* below were used to customise the dash in the boxes of service section  */
+#dash {
+  color: #24daba;
+  width: 500%;
+  font-weight: bolder;
+  font-size: larger;
+  font-stretch: ultra-expanded;
+}
+
+#dash2 {
+  color: #ffffff;
+  width: 300%;
+  font-weight: bold;
+}
+
+.embedded-image {
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 147px;
+  z-index: -3;
+}
+
+/* portfolio section */
+.my-work {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.tab {
+  margin-top: 50px;
+}
+
+/* testimony */
+.testimony {
+  width: 500px;
+  text-justify: center;
+}
+
+.dot-button {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  margin-bottom: 10px;
+}
+
+.dot-button a:not(.dot-button2) {
+  color: #000000 !important;
+}
+
+.dot-button2 {
+  color: #24daba !important;
+}
+
+.left-pix {
+  position: absolute;
+  margin-left: -50px;
+  border: 1px solid #24daba;
+  border-radius: 50%;
+}
+
+.right-pix {
+  position: absolute;
+  margin-left: 23px;
+  border: 1px solid #24daba;
+  border-radius: 50%;
+}
+
+.center-pix {
+  position: absolute;
+  margin-left: -25px;
+  margin-top: -10px;
+  border: 2px solid #24daba;
+  border-radius: 50%;
+}
+
+/* Blog section */
+#news {
+  margin-top: 60px;
+}
+
+.trendy-news {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.feeds {
+  width: 450px;
+  height: 440px;
+  border-radius: 5px;
+  border: 5px #ffffff;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.feeds img {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.feeds-text > a {
+  color: #24daba;
+}
+
+.feeds-text {
+  margin: 10px;
+}
+
+.form {
+  margin-top: 40px;
+  position: relative;
+}
+
+.floating-image {
+  position: absolute;
+  margin-left: -450px;
+  margin-top: 230px;
+}
+
+.background-image {
+  background-image: url("assets/map-55e32ae4c19a85738ebb72d3172e3ab7-image.png");
+  background-size: cover;
+  background-position: center;
+}
+
+body.main-color {
+  background-color: #24daba;
+}
+
+body.color-2 {
+  background-color: #ffffff;
+}
+
+body.color-3 {
+  background-color: #a9f0e0;
+}
+
+/* Circular background images design on the top and bottom of the page */
+.circular-images-accross-page1 {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  background-color: #a9f0e0;
+  border-radius: 50%;
+  border: 2px solid #a9f0e0;
+  opacity: 0.5;
+}
+
+.circular-images-accross-page2 {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  background-color: #ddede9;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+
+.circular-images-accross-page3 {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  border: 6px solid #a9f0e0;
+  opacity: 0.5;
+}
+
+.position1 {
+  margin-top: -50px;
+  margin-left: 40px;
+}
+
+.position2 {
+  margin-top: -100px;
+  margin-left: 390px;
+}
+
+.position3 {
+  margin-top: -245px;
+  margin-left: 260px;
+}
+
+.position4 {
+  margin-top: 0px;
+  margin-left: 260px;
+}
+
+.position5 {
+  margin-top: -140px;
+  margin-left: 700px;
+}
+
+.position6 {
+  margin-top: 20px;
+  margin-left: 700px;
+}
+
+.position7 {
+  margin-top: -300px;
+  margin-left: 600px;
+}
+
+.position8 {
+  margin-top: 40px;
+  margin-left: 50px;
+}
+
+.position9 {
+  margin-top: -20px;
+  margin-left: 450px;
+}
+
+.position10 {
+  margin-top: -170px;
+  margin-left: 430px;
+}
+
+.position11 {
+  margin-top: 100px;
+  margin-left: 300px;
+}
+
+.position12 {
+  margin-top: -85px;
+  margin-left: 240px;
+}
+
+.position13 {
+  margin-top: -40px;
+  margin-left: 550px;
+}
+
+.image_circle {
+  position: relative;
+  margin-left: 44px;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 20px;
+  line-height: 50px;
+  border-color: #24daba;
+  position: absolute;
+  margin-left: -40px;
+  margin-top: -340px;
+}
+
+/* circles that were used to surround the icons in services */
+.circling-icons {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  border: 2px solid #24daba;
+  border-radius: 50%;
+  margin-top: -309px;
+  margin-left: 8px;
+}
+
+.circling-icons2 {
+  position: relative;
+  width: 75px;
+  height: 75px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  margin-top: -290px;
+  margin-left: 8px;
+}
+
+.circling-icons3 {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  border: 2px solid #24daba;
+  border-radius: 50%;
+  margin-top: -290px;
+  margin-left: 8px;
+}
+
+body.main-color {
+  background-color: #24daba;
+}
+
+body.color-2 {
+  background-color: #ffffff;
+}
+
+body.color-3 {
+  background-color: #a9f0e0;
+}
+
+.footer {
+  display: flex;
+  gap: 90px;
+  margin-top: 120px;
+  margin-bottom: 30px;
+}
+
+#footer-image {
+  width: 270px;
+}
+
+#footer-pitch {
+  margin-left: 80px;
+  width: 300px;
+  margin-top: -15px;
+}
+
+#footer-contactInfo {
+  display: flex;
+  gap: 30px;
+  justify-content: right;
+  margin-top: -25px;
+}
+
+#footer-contactInfo p {
+  margin-top: -20px;
+}
+
+#footer-line {
+  width: 780px;
+  border: 1px solid #24daba;
+}
+
+#copyright {
+  text-align: center;
+  margin-top: -10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+
